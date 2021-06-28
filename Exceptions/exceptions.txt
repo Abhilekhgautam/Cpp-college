@@ -1,0 +1,9 @@
+Exceptions:
+--> Exceptions are run time anamolies encountered during the execution of a program.
+
+For eg : losing a connection with database,
+         division by zero.
+
+C++ supports exception handling blocks - try and catch .
+
+catch block catches the exception thrown by the attached try block.
