@@ -1,5 +1,6 @@
 /*Demonstration of new and delete operator*/
-#include<iostream>
+#include <iostream>
+#include <memory>
 using namespace std;
 
 class Book{
@@ -26,7 +27,7 @@ int main(){
   /* Bad practise smart developers use smart pointer*/
     // Book* b1 = new Book;// object creation using new
 
-    unique_ptr<Book> b2 (new Book());//no corresponding delete is required
+    unique_ptr<Book> b2 (new Book());//no corresponding delete is required if we use smart pointer
     string name = "Bjarne Stroustrup";
     string title ="The c++ programming";
     int pages = 1017;
