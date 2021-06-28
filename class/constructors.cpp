@@ -1,4 +1,4 @@
-/* A c++ program to describe "objects are destroyed int reverse order of theri creation"*/
+/* A c++ program to describe "objects are destroyed int reverse order of their creation"*/
 
 #include<iostream>
 
