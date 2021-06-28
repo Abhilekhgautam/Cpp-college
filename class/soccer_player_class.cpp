@@ -17,7 +17,7 @@ class soccerPlayer{
     }
 };
 
-//a > operator returns a boolean 
+//a '>' operator returns a boolean 
 //overloading 
 bool soccerPlayer::operator >(soccerPlayer a){
     int goalAssist1 = goals + assists ;
