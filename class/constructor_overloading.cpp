@@ -14,7 +14,7 @@ class User{
 
     public:
 
-/*A User can either authenticate using email or phonr or both*/
+/*A User can either authenticate using email or phone or both*/
    
     User(std::string mail, std::string no){
         //validate email and phone here
