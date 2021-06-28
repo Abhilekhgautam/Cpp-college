@@ -25,11 +25,13 @@ class User{
     User(std::string mail){
         //validate email here
         email = mail;
+        phone = nullptr;
     }
     
     User(std::string no){
      //validate...
         phone = no;
+        email = nullptr;
     }
 
 };
