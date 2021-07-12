@@ -1,0 +1,8 @@
+
+ Conversion operator allows:
+ 1. Implicit conversion from userdefined types to built in types.
+ 2. Conversion from one userdefined type to another.
+
+ syntax:
+ X::operator T()
+ This defines a conversion from type X to T.
