@@ -64,14 +64,5 @@ int main(){
   
   std::cout << "There are "<< greater_than_eight << " numbers greater than eight" << std::endl;
   
-  //Inputting an entire sentence using a vector
-
-  std::vector <std::string> name;
-
-  std::cout << "Enter your name" << std::endl;
-  while(std::cin>>name)
-	  name.push_back(name);
-
   return 0;
-
 }
