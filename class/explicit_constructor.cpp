@@ -21,12 +21,12 @@ class A{
 
 int main(){
 
-//  A obj1 = 23  error:conversion from int to type A requested.
+//  A obj1 = 23;  error:conversion from int to type A requested.
 
 /*  The above error occured because we have created an explicit constructor
 which prevents the implicit conversion from one type to other
 */
-    A obj = A('a');
+    A obj = A('a'); //sets the value to 97
 
 /* If we had not created an explicit constructor
 
@@ -34,7 +34,7 @@ which prevents the implicit conversion from one type to other
 
    led to the assignment
 
-   A.a = int('a') = 97
+   obj1.a = int('a') = 97
 
    which is surely a programmer want to avoid.
 
