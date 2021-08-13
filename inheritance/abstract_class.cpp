@@ -5,16 +5,19 @@ using namespace std;
 
 /*
 What is an abstract class?
--->There are certain types which abstract i.e having them as a Class
+-->There are certain types which are abstract i.e having their object
 doesnot make any sense at all.
+
+We cannot create an object of a abstract class.
 
 Consider a class Shape,
 If someone asks you to find the area of  shape,you might reply
-which shape -square,triangle or what this is what an abstract type is.
+which shape -square,triangle or what, this is what an abstract type is.
 
 Abstract class are used to express abstract concept,
-A class having one or more than one pure virtual function
-is an abstarct class.
+
+A class is made abstract by making one or more  pure virtual function
+in the class
 
 Abstract class is used to create an interface
 */
@@ -56,7 +59,7 @@ int main(){
 }
 */
 
-//not a abstract class because pure virtual functions are overridden
+//not an abstract class because pure virtual functions are overridden
 class Circle:public Shape{
     public:
     void rotate(){
