@@ -7,7 +7,7 @@
         |       |
         B       C
          \     /
-            D    :D has two  copy of A one from A and other from B
+            D    :D has two  copy of A one from C and other from B
 */
 
 // class A{
